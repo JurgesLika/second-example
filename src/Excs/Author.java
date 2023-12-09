@@ -31,7 +31,13 @@ public class Author {
         }
         return (double)sum/ books.length;
     }
-
+    public int getSumPage(){
+        int sum = 0;
+        for (int i = 0; i < books.length; i++) {
+            sum += books[i].getNrPges();
+        }
+        return sum;
+    }
     public void printAvgPageNumber(){
         System.out.println(getAvgPageNumber());
     }

@@ -14,8 +14,7 @@ public class Main {
 
 
 
-        //Ushtim me Autorin
-       /* Book[] books = new Book[]{
+        Book[] books = new Book[]{
         new Book("sdfsd", 1978, 543),
         new Book("fsdf", 1978, 243),
         new Book("sff", 1978, 34)
@@ -23,6 +22,7 @@ public class Main {
         Author author = new Author("Jurges");
         author.setBooks(books);
         System.out.println(author.getAvgPageNumber());
+        System.out.println(author.getSumPage());
 
 
 
